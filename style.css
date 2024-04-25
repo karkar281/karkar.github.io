@@ -1,0 +1,71 @@
+/* rebeccapurple */
+header{
+    position: sticky; 
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+}
+
+main{
+    font-weight: normal;
+    margin:60px 20%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 50px;
+    min-height: calc(100vh - 92px - 80px - 100px);
+    
+}
+
+img{
+    width:calc(100%)
+}
+
+.p{
+    font-weight: normal;
+    display: inline-block;
+    color: white;
+    background-color: #FFAD00;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 6px;
+}
+
+.footer{
+    position: relative;    
+}
+
+footer{
+    background-color: rgb(168, 168, 168);
+    font-weight: normal;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.h№1{
+    color: rebeccapurple;
+}
+
+/* gap: 30px; */
